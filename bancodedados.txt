@@ -1,0 +1,22 @@
+Create database dados;
+use dados;
+CREATE TABLE sinais (
+  sin_id int(11) NOT NULL AUTO_INCREMENT PRIMARY key,
+  sin_data datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  sin_temp float NOT NULL,
+  sin_umid float NOT NULL,
+  sin_cabo float NOT NULL,
+  sin_gas varchar(20) NOT NULL,
+  
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+use dados;
+create TABLE contato(
+nome varchar(30),
+sobrenome varchar(30),
+email varchar (30),
+mensagem varchar(60)
+
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

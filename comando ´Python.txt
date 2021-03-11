@@ -1,0 +1,4 @@
+Removi o comando python e executei:
+C:\Python27\pyserial-2.6\setup.py install
+
+E funcionou!
